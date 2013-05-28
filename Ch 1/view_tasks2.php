@@ -1,3 +1,22 @@
+<?php # Script 2.7 - view_tasks.php
+$dbc = @mysqli_connect ('localhost', 'root', 'yourpasswordhere', 'test2') OR die ('<p>Could not connect to the database!</p></body></html>');
+
+// Get the latest dates as timestamps:
+$q = 'SELECT UNIX_TIMESTAMP(MAX(date_added)), UNIX_TIMESTAMP(MAX(date_completed)) FROM tasks';
+$r = mysqli_query($dbc, $q);
+list($max_a, $max_c) = mysqli_fetch_array($r, MYSQLI_NUM);
+
+// Determine the greater timestamp
+$max = ($max_a > $max_c) ? $max_a : $max_c;
+
+// Create a cache interval in seconds:
+$interval = 60 * 60 * 6; //24 hours
+
+//Send the header:
+header ("Last-Modified: " . gmdate('r', $max));
+header ("Expires: " . gmdate("r", ($max+$interval)));
+header ("Cache-Control: max-age=$interval");
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -51,9 +70,6 @@ EOT;
 	echo '</ol>';
 
 } // End of make_list() function.
-
-// Connect to the database:
-$dbc = @mysqli_connect ('localhost', 'root', 'yourpasswordhere', 'test2') OR die ('<p>Could not connect to the database!</p></body></html>');
 
 // Check if the form has been submitted:
 if (isset($_POST['submitted']) && isset($_POST['tasks']) && is_array($_POST['tasks'])) {
