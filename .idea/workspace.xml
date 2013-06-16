@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7082bf0b-f418-4d63-8631-28bc2d5b845a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch 4/PECLtest" afterPath="$PROJECT_DIR$/Ch 4/PECLtest" />
     </list>
     <ignored path="PHP-5-Advanced.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,7 +10,8 @@
     <file path="/sessions1.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1370100256732" ignored="false" />
     <file path="/sessionsTest.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1370099567986" ignored="false" />
     <file path="/formSecurity.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1370807668170" ignored="false" />
-    <file path="/PECLtest" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1371350245428" ignored="false" />
+    <file path="/PECLtest" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1371351211039" ignored="false" />
+    <file path="/PEARtest.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1371355594741" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PECLtest" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PECLtest" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch 4/PECLtest">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.04636785">
+            <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEARtest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 4/PEARtest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.11591963">
               <folding />
             </state>
           </provider>
@@ -88,6 +98,7 @@
         <option value="$PROJECT_DIR$/Ch 3/sessions1.php" />
         <option value="$PROJECT_DIR$/Ch 4/formSecurity.php" />
         <option value="$PROJECT_DIR$/Ch 4/PECLtest" />
+        <option value="$PROJECT_DIR$/Ch 4/PEARtest.php" />
       </list>
     </option>
   </component>
@@ -351,7 +362,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4/PECLtest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.04636785">
+        <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4/PEARtest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.11591963">
           <folding />
         </state>
       </provider>
