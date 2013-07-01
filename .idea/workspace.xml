@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7082bf0b-f418-4d63-8631-28bc2d5b845a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch 4/PECLtest" afterPath="$PROJECT_DIR$/Ch 4/PECLtest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHP-5-Advanced.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1371350183269" ignored="false" />
+    <file path="/Dummy.txt" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1372021756134" ignored="false" />
     <file path="/sessions1.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1370100256732" ignored="false" />
     <file path="/sessionsTest.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1370099567986" ignored="false" />
     <file path="/formSecurity.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1370807668170" ignored="false" />
     <file path="/PECLtest" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1371351211039" ignored="false" />
     <file path="/PEARtest.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1371355594741" ignored="false" />
+    <file path="/header.php" changelist="7082bf0b-f418-4d63-8631-28bc2d5b845a" time="1372026496432" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,46 +32,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sessions1.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 3/sessions1.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 5 e-commerce/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="13" selection-start="2391" selection-end="2391" vertical-scroll-proportion="0.0">
+            <state line="34" column="100" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-21.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formSecurity.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4/formSecurity.php">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch 5 e-commerce/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="44" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-0.625">
-              <folding />
+            <state line="35" column="12" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.8114374">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PECLtest" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 4/PECLtest">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ch 5 e-commerce/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PEARtest.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ch 4/PEARtest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.11591963">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sessionsTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ch 3/sessionsTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+            <state line="165" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,6 +84,9 @@
         <option value="$PROJECT_DIR$/Ch 4/formSecurity.php" />
         <option value="$PROJECT_DIR$/Ch 4/PECLtest" />
         <option value="$PROJECT_DIR$/Ch 4/PEARtest.php" />
+        <option value="$PROJECT_DIR$/Ch 5 e-commerce/config.php" />
+        <option value="$PROJECT_DIR$/Ch 5 e-commerce/style.css" />
+        <option value="$PROJECT_DIR$/Ch 5 e-commerce/header.php" />
       </list>
     </option>
   </component>
@@ -135,7 +123,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,12 +151,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ch 4" />
+              <option name="myItemId" value="Ch 5 e-commerce" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +195,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2569141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26419213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -334,13 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 3/sessionsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="313" column="9" selection-start="9588" selection-end="9588" vertical-scroll-proportion="-1.395899" />
@@ -353,24 +334,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 4/PEARtest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1691" selection-end="1691" vertical-scroll-proportion="-24.166666">
+          <folding>
+            <marker date="1371355883000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4/formSecurity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="44" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-0.625">
+        <state line="43" column="44" selection-start="1451" selection-end="1451" vertical-scroll-proportion="0.023183925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch 4/PECLtest">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="-2.5">
+        <state line="4" column="2" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0927357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch 4/PEARtest.php">
+    <entry file="file://$PROJECT_DIR$/Ch 3/sessionsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.11591963">
+        <state line="26" column="21" selection-start="725" selection-end="725" vertical-scroll-proportion="0.21174653">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 5 e-commerce/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="100" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-21.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 5 e-commerce/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="0" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch 5 e-commerce/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="12" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.8114374">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
