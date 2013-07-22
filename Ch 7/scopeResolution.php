@@ -9,7 +9,7 @@
 
 class Pet {
   public $name;
-  
+
   function __construct($pet_name) {
     $this->name = $pet_name;
     self::go_to_sleep();
