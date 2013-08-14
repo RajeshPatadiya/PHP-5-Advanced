@@ -22,10 +22,10 @@ require_once ('Auth.php');
 function show_login_form() {
 
     echo '<form method="post" action="login.php">
-<p>Username <input type="text" name="username" /></p>
-<p>Password <input type="password" name="password" /></p>
-<input type="submit" value="Login" />
-</form><br />
+    <p>Username <input type="text" name="username" /></p>
+    <p>Password <input type="password" name="password" /></p>
+    <input type="submit" value="Login" />
+    </form><br />
 ';
 
 } // End of show_login_form() function.
